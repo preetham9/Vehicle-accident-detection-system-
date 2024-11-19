@@ -14,9 +14,13 @@ The aim of the Vehicle Accident Detection System project is to improve road safe
 #include <SoftwareSerial.h>
 
 #define RX 10
+
 #define TX 11
+
 #define sensorPin A0
+
 int m=0;
+
 String phno = "+919xxxxxxxxx";
 String res = " ";
 char response[30] = " ";
